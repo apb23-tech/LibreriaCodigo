@@ -1,12 +1,14 @@
 public class libreria{
     
     public class libros{
-        
+
+        private int codigo;
         private String titulo;
         private String autor;
         private int paginas;
 
-        public libros(String titulo, String autor, int paginas) {
+        public libros(int codigo, String titulo, String autor, int paginas) {
+            this.codigo = codigo;
             this.titulo = titulo;
             this.autor = autor;
             this.paginas = paginas;
