@@ -1,3 +1,11 @@
 public class libreria{
+
+  libros[] catalogo;
+    public libreria(libros[] catalogo) {
+        this.catalogo = catalogo;
+    }
+    if (catalogo == null) {
+        this.catalogo = new libros[0];
+    }
     
 }
